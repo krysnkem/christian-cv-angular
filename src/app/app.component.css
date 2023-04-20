@@ -1,0 +1,30 @@
+
+    
+.navbar {
+    background-color: var(--dark-color);
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.links {
+    margin: auto;
+}
+    
+.link {
+    margin-right: 32px;
+}
+    
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+    .links {
+        margin-left: 10%;
+
+    }
+}
